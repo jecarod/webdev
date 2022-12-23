@@ -1,0 +1,79 @@
+body {
+  color: white;
+}
+
+span.material-symbols-outlined {
+  vertical-align: middle;
+}
+
+.navegacion {
+  background-color: #232843;
+  padding-top: 10px;
+}
+.navegacion span.forty {
+  background-color: white;
+  color: #232843;
+}
+.navegacion .derecha {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+h2, h3 {
+  border-bottom: solid 2px white;
+  padding-bottom: 10px;
+}
+
+button {
+  background: none;
+  color: white;
+  border: solid thin white;
+  border-radius: 3px;
+}
+
+.fila1 {
+  background-color: #232843;
+}
+
+.fila2 .col-5 {
+  background-color: #6fc3df;
+}
+.fila2 .col-7 {
+  background-color: #8d82c4;
+}
+
+.fila3 .col-5 {
+  background-color: #e7b687;
+}
+.fila3 .col-7 {
+  background-color: #eb8d81;
+}
+
+.fila4 .col-5 {
+  background-color: #8da9e8;
+}
+.fila4 .col-7 {
+  background-color: #88c5a4;
+}
+
+.fila5 {
+  background-color: #232843;
+}
+.fila5 .col-8 h2 {
+  width: 70%;
+}
+.fila5 .col-8 div {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.fila5 .col-8 div input {
+  width: 49%;
+}
+.fila5 .col-8 div div {
+  margin-top: 10px;
+  width: 100%;
+}
+.fila5 .col-8 div div input {
+  width: 99%;
+}/*# sourceMappingURL=style.css.map */
