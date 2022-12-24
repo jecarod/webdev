@@ -1,0 +1,100 @@
+@import "variables";
+@import "mixins";
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  text-align: center;
+  color: $color_blanco;
+
+  header {
+    margin-top: 10vh;
+
+    .himage {
+      @include div_imagen();
+      min-width:30vw;
+      img {
+        @include img();
+      }
+    }
+    p {
+      font-weight: 100;
+      font-size: 16px;
+      margin-top: 10vh;
+      span {
+        font-weight: 300;
+      }
+      a:visited {
+        color: blue;
+      }
+    }
+    .redes {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 15%;
+      padding-right: 15%;
+
+      margin-top: 10vh;
+
+      @media (max-width: 480px) {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+
+      div {
+        @include div_imagen($width: 7vw, $padding: 15px);
+
+        @media (max-width: 480px) {
+          @include div_imagen($width: 15vw, $padding: 5px, $border_radius: 50%);
+        }
+
+        img {
+          @include img();
+        }
+      }
+    }
+  }
+  section {
+    display: flex;
+    margin-top: 10vh;
+    @media (max-width: 480px) {
+      flex-direction: column;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+
+      div {
+        @include div_imagen($width: 25vw, $padding: 0px, $border_radius: 0);
+
+        @media (max-width: 480px) {
+          @include div_imagen($width: 90vw, $padding: 0px, $border_radius: 0);
+        }
+
+        img {
+          @include img($border_radius: 0);
+        }
+        p {
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+  footer {
+    margin-top: 10vh;
+    p {
+      span {
+        border-top: solid thin $color_blanco;
+        padding-top: 10px;
+      }
+    }
+  }
+}

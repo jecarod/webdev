@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+body header {
+  margin-top: 10vh;
+}
+body header .himage {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 20vw;
+  padding: 3px;
+  border-radius: 50%;
+  margin: 5px auto;
+  box-shadow: 0 0 2px 1px white;
+  box-sizing: border-box;
+  min-width: 30vw;
+}
+body header .himage img {
+  border-radius: 50%;
+  width: 100%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body header p {
+  font-weight: 100;
+  font-size: 16px;
+  margin-top: 10vh;
+}
+body header p span {
+  font-weight: 300;
+}
+body header p a:visited {
+  color: blue;
+}
+body header .redes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 10vh;
+}
+@media (max-width: 480px) {
+  body header .redes {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+body header .redes div {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 7vw;
+  padding: 15px;
+  border-radius: 50%;
+  margin: 5px auto;
+  box-shadow: 0 0 2px 1px white;
+  box-sizing: border-box;
+}
+@media (max-width: 480px) {
+  body header .redes div {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 15vw;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 5px auto;
+    box-shadow: 0 0 2px 1px white;
+    box-sizing: border-box;
+  }
+}
+body header .redes div img {
+  border-radius: 50%;
+  width: 100%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body section {
+  display: flex;
+  margin-top: 10vh;
+}
+@media (max-width: 480px) {
+  body section {
+    flex-direction: column;
+  }
+}
+body section div {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+body section div div {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 25vw;
+  padding: 0px;
+  border-radius: 0;
+  margin: 5px auto;
+  box-shadow: 0 0 2px 1px white;
+  box-sizing: border-box;
+}
+@media (max-width: 480px) {
+  body section div div {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 90vw;
+    padding: 0px;
+    border-radius: 0;
+    margin: 5px auto;
+    box-shadow: 0 0 2px 1px white;
+    box-sizing: border-box;
+  }
+}
+body section div div img {
+  border-radius: 0;
+  width: 100%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body section div div p {
+  font-size: 0.9em;
+}
+body footer {
+  margin-top: 10vh;
+}
+body footer p span {
+  border-top: solid thin white;
+  padding-top: 10px;
+}/*# sourceMappingURL=styles.css.map */
