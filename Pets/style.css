@@ -1,0 +1,49 @@
+.icono {
+  width: 50px;
+}
+
+nav {
+  background-color: #053155;
+  color: white;
+  padding-left: 15px;
+}
+nav a:visited {
+  color: white;
+}
+nav a {
+  padding-right: 15px;
+}
+
+.row1 {
+  background-image: url(images/banner_bg.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-position-x: 75%;
+}
+.row1 .col-12 {
+  padding-top: 45vh;
+  padding-bottom: 45vh;
+  padding-left: 15vw;
+}
+.row1 .col-12 p {
+  color: #e96756;
+}
+.row1 .col-12 h3 {
+  color: #15407f;
+  font-weight: 300;
+}
+
+.row3 {
+  background-color: #f2f9f9;
+}
+
+.row4 button {
+  color: white;
+  background-color: #0eacc2;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px;
+  width: 150px;
+  margin-left: 50%;
+}/*# sourceMappingURL=style.css.map */
