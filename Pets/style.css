@@ -5,13 +5,19 @@
 nav {
   background-color: #053155;
   color: white;
-  padding-left: 15px;
+}
+nav .iconomenu {
+  display: none !important;
 }
 nav a:visited {
   color: white;
 }
+nav a:hover {
+  color: #ffd7da !important;
+}
 nav a {
   padding-right: 15px;
+  padding-left: 15px;
 }
 
 .row1 {
@@ -34,10 +40,25 @@ nav a {
   font-weight: 300;
 }
 
+.row2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
 .row3 {
+  padding-left: 5vw;
+  padding-right: 5vw;
   background-color: #f2f9f9;
 }
 
+.row4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
 .row4 button {
   color: white;
   background-color: #0eacc2;
@@ -46,4 +67,106 @@ nav a {
   padding: 10px;
   width: 150px;
   margin-left: 50%;
+}
+
+.row5 {
+  background-image: url(images/review_bg.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
+.row6 button {
+  color: white;
+  background-color: #0eacc2;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100px;
+}
+
+footer {
+  background-color: #062a4a;
+  color: white;
+}
+footer table {
+  margin-bottom: 30px;
+}
+footer table td {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .row1 {
+    background-position-y: 90vh;
+    background-position-x: 80%;
+  }
+  .row1 .col-12 {
+    padding-top: 10vh;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .row1 .col-12 p {
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .row1 .col-12 h3 {
+    font-weight: 300;
+    text-align: center;
+    font-size: 2em;
+  }
+}
+@media (max-width: 480px) {
+  .icono {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  nav {
+    background-color: #ffd6d9;
+  }
+  nav .iconomenu {
+    display: block !important;
+  }
+  nav a {
+    display: none;
+  }
+  .row1 {
+    margin-top: -1px;
+  }
+  .row1 .col-12 {
+    padding-top: 10vh;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .row1 .col-12 p {
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .row1 .col-12 h3 {
+    font-weight: 300;
+    text-align: center;
+    font-size: 2em;
+  }
+  .row2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .row2 .col-sm-12 {
+    margin-bottom: 30px;
+  }
+  .row4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .row4 button {
+    margin: auto;
+  }
+  .row4 .col-sm-12 {
+    margin-bottom: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */
