@@ -16,6 +16,7 @@ nav a:hover {
   color: #ffd7da !important;
 }
 nav a {
+  color: white !important;
   padding-right: 15px;
   padding-left: 15px;
 }
