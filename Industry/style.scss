@@ -1,0 +1,254 @@
+$cl_yell:#ffd91d;
+ 
+@import "_mixins";
+.yellow{
+    color: $cl_yell;
+}
+hr{
+    height: 2px;
+    width: 25%;
+    opacity: 1;
+    background-color: $cl_yell;
+}
+
+// HEADER
+header{
+    
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(./images/background1.png);
+
+    background-position: center;
+    background-size: cover;
+    color: white;
+    .title{
+        padding-top:20vh;
+        padding-bottom:10vh;
+        padding-left: 10vw;
+        
+    }
+    button{
+        @include boton(transparent, white);
+    }
+    button:hover{
+        @include boton($cl_yell, $cl_yell);
+    }
+
+    .person{
+        position: absolute;
+        right: 12vw;
+        text-align: right;
+
+        bottom: 0;
+        
+        img{
+            align-self: end;
+            height: 400px;
+        }        
+    }    
+}
+.row1{
+    padding: 7vw 10vw;
+
+    button{
+        @include boton($cl_yell, $cl_yell);
+    }
+    button:hover{
+        @include boton(black, $cl_yell);
+    }
+}
+// SECTION 2
+.row2{
+    color: white;
+    .c1{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(./images/background2.png);
+        padding-top: 15vh;
+
+    }
+    .c2{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(./images/background3.png);
+        
+        padding-top: 15vh;
+    }
+    .c3{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(./images/background4.png);
+        padding-top: 15vh;
+    }
+     
+}
+// SECTION 3
+.row3{
+    padding: 7vw 10vw;
+
+    img{
+        width: 100px;
+        height: 100px;
+        outline-offset: 5px;
+        outline: 2px solid $cl_yell;
+        margin-right: 20px;
+    }
+    .col-md-4{
+        margin-top: 35px;
+    }
+
+}
+// SECTION 4
+
+.row4{
+    .c0{
+        padding: 3vw 0;
+        background-color: #2c2c2c;
+        h2{
+            color: white;
+        }
+    }  
+   
+    .c1{       
+        object-position: center;  
+        object-fit: cover;
+        margin:0 !important;
+        padding: 0 !important;
+        img{
+            width: 100%;
+            height: 100%;
+        } 
+    }    
+}
+// SECTION 5
+.row5{
+    padding: 7vw 10vw;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    button{
+        @include boton($cl_yell, $cl_yell);
+    }
+    button:hover{
+        @include boton(black, $cl_yell);
+    }
+}
+// SECTION 6
+.row6{
+    padding: 5vh 15vw;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(./images/background13.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+    .col-12{
+        margin-bottom: 15px;
+        margin-top: 15px;
+
+    }
+    hr{
+        margin: 0 !important;
+    }
+    p{
+        text-align: center;
+    }
+}
+// SECTION 7
+.row7{
+    padding: 7vw 10vw;
+    text-align: center;
+    .round{
+        width: 100px;
+        height: 100px;
+        background-color: $cl_yell;
+        border-radius: 50%;
+        margin-top:30px;
+        margin-bottom:10px;
+    }
+}
+// SECTION 8
+.row8{
+    background-color: #2c2c2c;
+    color: white;
+    padding: 7vw 10vw 13vw 10vw;
+
+    .colr{
+        border: solid thin white;
+        padding: 10px 10px 50px 10px;
+        text-align: center;
+        position: relative;
+        margin-top:50px;
+        margin-bottom:50px;
+
+
+        .person{
+            justify-content: center;
+            width: 150px;
+            height: 150px;
+            margin-top:30px;
+            position: absolute;           
+            // top:calc((100% / 2) + 20px);
+            bottom:-100px;
+            left: calc((50% / 2));
+           
+
+
+            img{
+                width: 80px;
+            }
+        }
+    }
+}
+// SECTION 9
+.row9{
+    padding: 7vw 10vw;
+    background-color: black;
+    text-align: center;
+    // img{
+
+    //    //mix-blend-mode:multiply;
+    //    //filter: grayscale(100%);       
+    
+    // }
+}
+
+// SECTION 10
+.row10{
+    padding: 7vw 10vw;
+     
+    text-align: center;
+    img{
+        width: 100%;
+         
+    }
+    p{
+        text-align: left;
+        color: grey;
+    }
+    h5{
+        text-align: left;
+        margin-top: 10px;
+    }
+    a, a:visited{
+        color: grey;
+    }
+    a:hover{
+        color: black;
+    }
+
+    .col-12, .col-md-4{
+        margin-top: 30px;
+    }
+}
+
+footer{
+    background-color: $cl_yell;
+    padding: 7vw 10vw;
+    color: white;
+
+    button{
+        @include boton($cl_yell, white);
+        
+    }
+}
+@media (max-width: 480px){
+    header{
+        .person{
+            display: none;
+        }
+    }
+}

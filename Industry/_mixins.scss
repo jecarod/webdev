@@ -1,0 +1,15 @@
+@mixin boton($background:transparent, $borderC){
+    background-color: $background;
+    color: white;
+    // border-color:$borderC;
+    border: solid 2px $borderC;    
+    border-radius: 7px;
+    padding: 5px 20px;
+    margin-right: 20px;
+}
+@mixin imagen_fondo($url){
+    background-image: url($url);
+    background-position: center;
+    background-size: cover;
+}
+ 

@@ -1,0 +1,250 @@
+.yellow {
+  color: #ffd91d;
+}
+
+hr {
+  height: 2px;
+  width: 25%;
+  opacity: 1;
+  background-color: #ffd91d;
+}
+
+header {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/background1.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+header .title {
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  padding-left: 10vw;
+}
+header button {
+  background-color: transparent;
+  color: white;
+  border: solid 2px white;
+  border-radius: 7px;
+  padding: 5px 20px;
+  margin-right: 20px;
+}
+header button:hover {
+  background-color: #ffd91d;
+  color: white;
+  border: solid 2px #ffd91d;
+  border-radius: 7px;
+  padding: 5px 20px;
+  margin-right: 20px;
+}
+header .person {
+  position: absolute;
+  right: 12vw;
+  text-align: right;
+  bottom: 0;
+}
+header .person img {
+  align-self: end;
+  height: 400px;
+}
+
+.row1 {
+  padding: 7vw 10vw;
+}
+.row1 button {
+  background-color: #ffd91d;
+  color: white;
+  border: solid 2px #ffd91d;
+  border-radius: 7px;
+  padding: 5px 20px;
+  margin-right: 20px;
+}
+.row1 button:hover {
+  background-color: black;
+  color: white;
+  border: solid 2px #ffd91d;
+  border-radius: 7px;
+  padding: 5px 20px;
+  margin-right: 20px;
+}
+
+.row2 {
+  color: white;
+}
+.row2 .c1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(./images/background2.png);
+  padding-top: 15vh;
+}
+.row2 .c2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(./images/background3.png);
+  padding-top: 15vh;
+}
+.row2 .c3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(./images/background4.png);
+  padding-top: 15vh;
+}
+
+.row3 {
+  padding: 7vw 10vw;
+}
+.row3 img {
+  width: 100px;
+  height: 100px;
+  outline-offset: 5px;
+  outline: 2px solid #ffd91d;
+  margin-right: 20px;
+}
+.row3 .col-md-4 {
+  margin-top: 35px;
+}
+
+.row4 .c0 {
+  padding: 3vw 0;
+  background-color: #2c2c2c;
+}
+.row4 .c0 h2 {
+  color: white;
+}
+.row4 .c1 {
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.row4 .c1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.row5 {
+  padding: 7vw 10vw;
+}
+.row5 img {
+  width: 100%;
+  height: 100%;
+}
+.row5 button {
+  background-color: #ffd91d;
+  color: white;
+  border: solid 2px #ffd91d;
+  border-radius: 7px;
+  padding: 5px 20px;
+  margin-right: 20px;
+}
+.row5 button:hover {
+  background-color: black;
+  color: white;
+  border: solid 2px #ffd91d;
+  border-radius: 7px;
+  padding: 5px 20px;
+  margin-right: 20px;
+}
+
+.row6 {
+  padding: 5vh 15vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(./images/background13.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.row6 .col-12 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.row6 hr {
+  margin: 0 !important;
+}
+.row6 p {
+  text-align: center;
+}
+
+.row7 {
+  padding: 7vw 10vw;
+  text-align: center;
+}
+.row7 .round {
+  width: 100px;
+  height: 100px;
+  background-color: #ffd91d;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.row8 {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 7vw 10vw 13vw 10vw;
+}
+.row8 .colr {
+  border: solid thin white;
+  padding: 10px 10px 50px 10px;
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.row8 .colr .person {
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+  position: absolute;
+  bottom: -100px;
+  left: 25%;
+}
+.row8 .colr .person img {
+  width: 80px;
+}
+
+.row9 {
+  padding: 7vw 10vw;
+  background-color: black;
+  text-align: center;
+}
+
+.row10 {
+  padding: 7vw 10vw;
+  text-align: center;
+}
+.row10 img {
+  width: 100%;
+}
+.row10 p {
+  text-align: left;
+  color: grey;
+}
+.row10 h5 {
+  text-align: left;
+  margin-top: 10px;
+}
+.row10 a, .row10 a:visited {
+  color: grey;
+}
+.row10 a:hover {
+  color: black;
+}
+.row10 .col-12, .row10 .col-md-4 {
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #ffd91d;
+  padding: 7vw 10vw;
+  color: white;
+}
+footer button {
+  background-color: #ffd91d;
+  color: white;
+  border: solid 2px white;
+  border-radius: 7px;
+  padding: 5px 20px;
+  margin-right: 20px;
+}
+
+@media (max-width: 480px) {
+  header .person {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
