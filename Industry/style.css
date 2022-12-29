@@ -182,17 +182,15 @@ header .person img {
   padding: 10px 10px 50px 10px;
   text-align: center;
   position: relative;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px auto;
+  max-width: 300px;
 }
 .row8 .colr .person {
-  justify-content: center;
   width: 150px;
   height: 150px;
-  margin-top: 30px;
   position: absolute;
-  bottom: -100px;
   left: 25%;
+  top: 75%;
 }
 .row8 .colr .person img {
   width: 80px;
