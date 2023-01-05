@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&family=PT+Sans+Narrow:wght@400;700&display=swap");
+* {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+span.navtit {
+  font-weight: 500;
+}
+
+button {
+  margin-top: 30px;
+  border: none;
+  background-color: #ab7957;
+  color: #fcdfc9;
+  padding: 10px 30px;
+}
+
+.row1 {
+  background-image: linear-gradient(rgba(67, 66, 66, 0.3), rgba(67, 66, 66, 0.3)), url(./images/foto1.jpeg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.row1 .c1 div {
+  text-align: center;
+  width: 20vw;
+  padding-bottom: 10vh;
+  padding-left: 7vw;
+  padding-top: 50vh;
+}
+.row1 .c1 div p {
+  margin: 0px;
+}
+.row1 .c1 div :nth-child(2) {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.row1 .c1 div :nth-child(2) span {
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+}
+.row1 .c2 {
+  margin: auto;
+  text-align: right;
+  padding-right: 5vw;
+}
+.row1 .c2 :nth-child(1) {
+  font-size: 1.5rem;
+}
+.row1 .c2 :nth-child(2), .row1 .c2 :nth-child(3) {
+  font-family: "Noto Serif TC", serif;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0;
+}
+
+.row2 {
+  padding: 3vw 5vw;
+  background-color: #f8fbf5;
+}
+.row2 h3, .row2 h5 {
+  font-family: "Noto Serif TC", serif;
+}
+.row2 .c2 {
+  background-image: url(./images/foto2.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.row3 {
+  padding: 3vw 5vw;
+}
+.row3 :nth-child(1) {
+  text-align: center;
+}
+.row3 img {
+  width: 100%;
+  margin-top: 2vw;
+}/*# sourceMappingURL=style.css.map */
